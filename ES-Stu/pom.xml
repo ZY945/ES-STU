@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.es</groupId>
-    <artifactId>ES-Spring-Stu</artifactId>
+    <artifactId>ES-Stu</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ES-Spring-Stu</name>
+    <name>ES-Stu</name>
     <description>ES-Spring-Stu</description>
     <properties>
         <spring-boot.version>2.3.2.RELEASE</spring-boot.version>
