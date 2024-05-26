@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: ES-Spring-Stu
+  elasticsearch:
+    rest:
+      uris: http://192.168.78.3:9200
+      password:
+      username:
+  # rabbitmq配置
+  rabbitmq:
+    host: 192.168.78.3
+    username: root
+    password: root
+    virtual-host: test
+  # 应用名称
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    name: defaultDataSource
+    url: jdbc:mysql://192.168.78.3:3306/test?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2b8&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+
+server:
+  port: 8080
